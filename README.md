@@ -8,7 +8,7 @@
 - chart becomes just a regular area chart when just one group is being displayed
 - CSS variables are provided for easily controlling chart colors, backgrounds and font sizes
 
-Three [webpack](https://webpack.js.org/concepts/) npm scripts are included for building  development, production, or hot recompile/execute of the demo.   `build-dev` and `build-prod` scripts produce  a `dist` folder containing the `index.html`.  The size of the `main.js` bundle using `build-prod` is 145 KiB along with calling a CDN for incorporating the Vue framework.
+ **stacked-area-chart-comp-d3** can be installed via with the included `package.json` file for a local installation via the [npm install](https://docs.npmjs.com/cli/install.html "npm install") command.  **stacked-area-chart-comp-d3** depends on the [vue.js](https://vuejs.org/ "Vue.js") and modules from the d3 frameworks.  A demo folder is provided that used [Parcel](https://parceljs.org/) together with its associated `package.json` file to bundle together  **stacked-area-chart-comp-d3** along with its [vue.js](https://vuejs.org/ "Vue.js") and d3 dependencies for a simple application.  Further details are provided below for running the demo.
 
 ## Props
 
@@ -80,6 +80,8 @@ As an example of updating a time based axis,  in `demo_2` the raw time data is f
 ## Demonstration
 
 Two demonstrations of **stacked-area-chart-comp-d3**  are provided in the folders named `demo_1`, `demo_2`.  It can be viewed by hosting their `index.html`file. `demo_1` shows expenditures over time for several US government functions (source is Office of Management and Budget).  
+
+As a suggestion, install [http-server](https://www.npmjs.com/package/http-server "http-server") locally/globally via [npm](https://www.npmjs.com/ "npm") then enter the command `http-server`in the **stacked-area-chart-comp-d3** `dist` directory.  From a browser enter the url: `localhost:8080/` to view the demo.
 
 The demo folder contains a `package.json` file that can be used to setup dependencies for this demo and as a template for other applications using **stacked-area-chart-comp-d3**.
 

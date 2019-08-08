@@ -1,0 +1,40 @@
+{
+  "name": "stackedareachartcompd3demo2",
+  "version": "1.0.0",
+  "description": "Demo 2 of StackedAreaChartCompD3",
+  "main": "app.js",
+  "browserslist": [
+    "since 2017-06"
+  ],
+  "scripts": {
+    "build": "parcel build index.html"
+  },
+  "repository": "git+https://github.com/deandevl/StackedAreaChartCompD3.git",
+  "keywords": [
+    "StackedAreaChartCompD3",
+    "Vue.js"
+  ],
+  "author": "'Rick <deanr3@bardstown.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "vue": "^2.5.9",
+    "stackedareachartcompd3": "git+https://github.com/deandevl/StackedAreaChartCompD3.git",
+    "buttoncomp": "git+https://github.com/deandevl/ButtonComp.git#develop",
+    "inputcomp": "git+https://github.com/deandevl/InputComp.git#develop",
+    "selectcomp": "git+https://github.com/deandevl/SelectComp.git#develop",
+    "d3-selection": "^1.3.2",
+    "d3-shape": "^1.2.2",
+    "d3-array": "^2.0.3",
+    "d3fetchmodule": "git+https://github.com/deandevl/d3FetchModule.git",
+    "d3axismodule": "git+https://github.com/deandevl/d3AxisModule.git",
+    "d3scalemodule": "git+https://github.com/deandevl/d3ScaleModule.git",
+    "d3utilmodule": "git+https://github.com/deandevl/d3UtilModule.git"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "less": "^3.9.0",
+    "parcel-bundler": "^1.12.3",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
